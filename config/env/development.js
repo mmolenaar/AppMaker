@@ -2,7 +2,7 @@
 
 module.exports = {
 	db: 'mongodb://meanuser:pipo123@ds056727.mongolab.com:56727/mean-database',
-	app: {
+    app: {
 		title: 'AppMaker - Development Environment'
 	},
 	facebook: {
