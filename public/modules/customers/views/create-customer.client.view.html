@@ -1,9 +1,10 @@
-<section data-ng-controller="CustomersController">
-    <div class="page-header">
-        <h1>New Customer</h1>
+<section data-ng-controller="CustomersCreateController as customerCreateCtrl">
+
+    <div class="modal-header">
+        <h3 class="modal-title">New Customer</h3>
     </div>
-    <div class="col-md-12">
-        <form class="form-horizontal" data-ng-submit="create()" novalidate>
+    <div class="modal-body">
+        <form name="createCustomerForm">
             <fieldset>
                 <div class="row">
                     <div class="form-group">
@@ -26,7 +27,7 @@
                         <div class="form-group">
                             <label class="control-label" for="surname">Surname</label>
                             <div class="controls">
-                                <input type="text" data-ng-model="surname" id="surname" class="form-control">
+                                <input type="text" data-ng-model="surname" id="surname" class="form-control" required>
                             </div>
                         </div>
                         <div class="form-group">
@@ -82,14 +83,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6">
-                        <div class="form-group">
-                            <button type="submit" class="btn btn-lg btn-success">
-                                Save & Close
-                        </div>
-                    </div>
                 </div>
             </fieldset>
         </form>
+    </div>
+    <div class="modal-footer">
+        <button class="btn btn-success" ng-button ng-click="customerCreateCtrl.create();ok()" ng-disabled="createCustomerForm.$invalid">Save & Close</button>
+        <button class="btn btn-warning" ng-click="cancel()">Cancel</button>
     </div>
 </section>

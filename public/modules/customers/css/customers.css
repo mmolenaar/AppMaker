@@ -6,6 +6,10 @@
     font-size: 100px;
 }
 
+.text-pink {
+    color: #ec407a;
+}
+
 .checkbox-left {
     width: 10%;
     text-align: left;
