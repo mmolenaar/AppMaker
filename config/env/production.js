@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-	db: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || 'mongodb://meanuser:meanpass@ds062797.mongolab.com:62797/30daychallenge',
+	db: 'mongodb://meanuser:meanpass@ds062797.mongolab.com:62797/30daychallenge',
 	assets: {
 		lib: {
 			css: [
