@@ -1,12 +1,12 @@
 'use strict';
 
 module.exports = {
-	db: 'mongodb://meanuser:meanpass@ds062797.mongolab.com:62797/30daychallenge',
-	assets: {
+    db: 'mongodb://meanuser:pipo123@ds056727.mongolab.com:56727/mean-database',
+    assets: {
 		lib: {
 			css: [
 				'public/lib/bootstrap/dist/css/bootstrap.min.css',
-				'public/lib/bootstrap/dist/css/bootstrap-theme.min.css',
+				'public/lib/bootstrap/dist/css/bootstrap-theme.min.css'
 			],
 			js: [
 				'public/lib/angular/angular.min.js',
