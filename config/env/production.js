@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-    db: 'mongodb://meanuser:pipo123@ds062797.mongolab.com:62797/30daychallenge',
+    db: 'mongodb://MongoLab-x:NsKAXqRFOWHKIItxU.PVNX5JgUEhC.BPeBBxV_geD7o-@ds062807.mongolab.com:62807/MongoLab-x',
     assets: {
 		lib: {
 			css: [
